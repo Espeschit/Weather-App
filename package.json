@@ -1,0 +1,32 @@
+{
+  "name": "WeatherApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "watch": {
+    "build": "./src/index.js"
+  },
+  "scripts": {
+    "watch": "npm-watch",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Bruce Espeschit",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "core-js": "3",
+    "http-server": "^0.12.3",
+    "npm-watch": "^0.6.0",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "description": ""
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='assets/styles/index.css'>
+    <link rel="icon" href='/assets/images/favicon.ico' type="image/x-icon" />
+    <script src="assets/scripts/index.js" defer type="module"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div id='weatherContent'>
+        <div class='form'>
+            <input id='input' placeholder='Search for a city'>
+            <button id='submit'>SUBMIT</button>
+        </div>
+        <div id='loadingIcon'></div>
+        <div id='weatherInfo'>
+            <div class='region'>
+                <div id='city'></div>
+                <div id='country'></div>
+            </div>
+            <div id='temp'></div>
+            <div id='units' class='units'>
+                <div id='metricUnit' class='active'>C</div>
+                <div id='imperialUnit' class='inactive'>F</div>
+            </div>
+            <div id='description'></div>
+            <img id='image'>
+        </div>
+    </div>
+</body>
+</html>
