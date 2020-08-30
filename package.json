@@ -1,5 +1,5 @@
 {
-  "name": "WeatherApp",
+  "name": "weatherapp",
   "version": "1.0.0",
   "main": "index.js",
   "watch": {
