@@ -12,7 +12,7 @@ const units = document.getElementById('units');
 const image = document.getElementById('image');
 const description = document.getElementById('description');
 
-const apiKey = "e285565baa228a39f99aca44e22ed2c0";
+const apiKey = API_KEY;
 let unit = 'metric';
 cityInput.value = 'Belo Horizonte';
 
